@@ -4,6 +4,9 @@ import day24_CustomMethods_Return.ReturnMethodIntro;
 import day24_CustomMethods_Return.ReturnMethodsPractice4;
 import utilities.StringUtility;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+
 public class test {
     public static void main(String[] args) {
 String str = "java programming";
@@ -13,6 +16,13 @@ String str = "java programming";
 
         StringUtility.printEachChar(str);
         System.out.println("--------------------------------");
+
+       int a = 6;
+        System.out.println(--a);//5
+        System.out.println(a++);//5
+        System.out.println(--a);//5
+        System.out.println(a++); //5
+        System.out.println(--a);//5
 
 
     }
