@@ -1,0 +1,66 @@
+Java Task WorldMap:
+
+1. Create a class named ContinentsAndCountriesOfTheWorld:
+
+Variables:
+
+name, area, population
+
+- Encapsulate all the fields
+
+- Add a constructor that can set all the fields
+
+Conditions:
+           1. name can not be null and can not be empty
+           2. area, population, can not be negative or zero
+
+           Methods:
+
+                demographics();borders();
+
+				toString();
+
+2. Create the following sub classes of ContinentsAndCountriesOfTheWorld and add any additional fields and methods if necessary:
+                                  1. Asia
+				2. North America
+				3. South America
+				4. Europe
+				5. Africa
+				6. Antarctica
+				7. Australia
+
+Methods:
+
+          nationalFood();or eat();
+          nationalSport(); or sport();
+
+
+3. Create the following sub classes of Continents and add any additional fields and methods if necessary:
+Ex:
+Europe->Ukraine;
+NorthAmerica->USA;
+
+				1. Ukraine
+				2. Armenia
+				3. Turkey
+				4. USA
+				...
+
+Extra Variables:
+
+language, currency, capital, presidentName
+
+Conditions:
+							1.  language, capital, presidentName can not be null
+							2.  language, capital, presidentName can not be empty
+							3.  currency should not contain any digits
+
+
+			Override toString () method: name, area, population, language, currency, capital, presidentName;,
+			Override  demographics(), nationalCostume(), nationalFood(), nationalSport() methods;
+
+4. Create a class named CountryObjects:
+
+						Create the objects of each sub classes
+
+						test all the functions of each objects

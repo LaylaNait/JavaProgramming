@@ -5,12 +5,11 @@ public class Employee extends Person {
     private String jobTitle;
     private double salary;
 
-
     public Employee(String name, int age, char gender, int ID, String jobTitle, double salary) {
         super(name, age, gender);
-        setID(ID);
-        setJobTitle(jobTitle);
-        setSalary(salary);
+        this.ID = ID;
+        this.jobTitle = jobTitle;
+        this.salary = salary;
     }
 
     public int getID() {
